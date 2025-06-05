@@ -1,0 +1,57 @@
+/* StoresPage.css */
+
+.page-header {
+    background-color: #fff8e1;
+    color: #2c2c2c;
+  }
+  
+  .page-header h1 {
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: #2d1600; /* Dark brown from logo */
+  }
+  
+  .page-header .subtitle {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .search-bar-container input.form-control {
+    border-radius: 10px;
+  }
+  
+  .search-bar-container button {
+    background-color: #f6c000; /* Yellow highlight */
+    color: #000;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .search-bar-container button:hover {
+    background-color: #e0ad00;
+  }
+  
+  .main-content {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .map-container {
+    width: 100%;
+  }
+  
+  .map-placeholder {
+    background: #f0f0f0;
+    border: 2px dashed #ccc;
+    text-align: center;
+    color: #999;
+  }
+  
+  @media (max-width: 768px) {
+    .main-content {
+      flex-direction: column;
+    }
+  }
+  

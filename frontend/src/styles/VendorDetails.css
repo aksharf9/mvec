@@ -1,0 +1,11 @@
+/* VendorDetails.css */
+
+.vendor-detail-box {
+    max-width: 700px;
+  }
+  
+  .vendor-detail-box p {
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
+  }
+  

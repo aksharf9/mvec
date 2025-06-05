@@ -1,0 +1,29 @@
+/* AdminDashboard.css */
+
+.admin-dashboard {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+  }
+  
+  .admin-content {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 2rem;
+  }
+  
+  .stat-card {
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .revenue-section h2 {
+    font-weight: bold;
+    color: #2d1600;
+  }
+
+  

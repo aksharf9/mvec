@@ -1,0 +1,53 @@
+.earnings-card {
+  border-left: 5px solid #f6c000;
+  transition: all 0.3s ease;
+}
+
+.earnings-card:hover {
+  transform: scale(1.02);
+  border-color: #e0ad00;
+}
+
+.earnings-card h4 {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.commission-table {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.commission-table td,
+.commission-table th {
+  vertical-align: middle;
+  padding: 0.75rem 1rem;
+}
+
+.payout-table {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.payout-table td,
+.payout-table th {
+  vertical-align: middle;
+  padding: 0.75rem 1rem;
+}
+
+.logs-table {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+}
+
+.logs-table td,
+.logs-table th {
+  vertical-align: middle;
+  padding: 0.75rem 1rem;
+}

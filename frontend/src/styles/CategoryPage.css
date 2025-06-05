@@ -1,0 +1,74 @@
+/* CategoryPage.css */
+
+/* Overall Page Styling */
+.category-page {
+    background: linear-gradient(to bottom right, #fffdf7, #fef8e0);
+    min-height: 100vh;
+    padding-bottom: 50px;
+  }
+  
+  /* Section Title */
+  .category-page h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #2d1600;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .category-page h2::after {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 4px;
+    background-color: #f6c000;
+    border-radius: 2px;
+    margin: 8px auto 0;
+  }
+  
+  /* Category Card */
+  .category-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    height: 100%;
+    padding: 1.5rem 1.2rem;
+    border-left: 6px solid #f6c000;
+    position: relative;
+  }
+  
+  .category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  }
+  
+  /* Category Title */
+  .category-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #2d1600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: 0.5rem;
+  }
+  
+  /* Store List */
+  .store-item {
+    font-size: 0.96rem;
+    padding: 6px 0;
+    color: #555;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease;
+  }
+  
+  .store-item:hover {
+    color: #f6c000;
+    transform: translateX(4px);
+  }
+  

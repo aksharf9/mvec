@@ -1,0 +1,64 @@
+.product-table {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.product-table td,
+.product-table th {
+  vertical-align: middle;
+  padding: 0.75rem 1rem;
+}
+
+.category-table {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+}
+
+.category-table td,
+.category-table th {
+  vertical-align: middle;
+  padding: 0.75rem 1rem;
+}
+
+.attribute-table {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+}
+
+.attribute-table td,
+.attribute-table th {
+  vertical-align: middle;
+  padding: 0.75rem 1rem;
+}
+
+.approval-table {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.approval-table td,
+.approval-table th {
+  vertical-align: middle;
+  padding: 0.75rem 1rem;
+}
+
+.review-table {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+}
+
+.review-table td,
+.review-table th {
+  vertical-align: middle;
+  padding: 0.75rem 1rem;
+}
